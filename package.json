@@ -1,0 +1,14 @@
+{
+  "name": "cron_expression_parser",
+  "version": "1.0.0",
+  "description": "simple program to parse cron expression",
+  "main": "main.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Zhoomart Akimov",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.1.2"
+  }
+}
