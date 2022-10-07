@@ -136,7 +136,7 @@ const tempArguments = tempArgsStr.split(' ');
 
 // when calling test file, default cron arguments must be provided
 const cronArgSample = ['5','11-22', '10-28', '1-9', '*/2', '/usr/bin/find'];
-const expression = process.argv.slice(2) > 0
+const expression = process.argv.slice(2).length > 0
     ? callParser(tempArguments)
     : callParser(cronArgSample);
 console.log(expression)
